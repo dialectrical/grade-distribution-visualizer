@@ -55,6 +55,7 @@ export const GradeVisualizer = (props) => {
         gradeValues={gradeValues}
         gradeLetters={gradeLetters}
       />
+      <br />
       <Button fn={setGrades} arr={input} />
       <div>
         <TextInput gradeLabel="A+" arr={input} index={0} />
