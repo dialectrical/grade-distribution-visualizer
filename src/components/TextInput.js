@@ -1,4 +1,9 @@
 import React from "react";
+import {
+  StyledTextInput,
+  StyledInputLabel,
+  StyledInputContainer,
+} from "./styles/StyledTextInput";
 
 export const TextInput = (props) => {
   const handleChange = (event) => {
@@ -12,9 +17,9 @@ export const TextInput = (props) => {
   };
 
   return (
-    <div>
-      {props.gradeLabel}
-      <input type="text" onChange={handleChange} />
-    </div>
+    <StyledInputContainer>
+      <StyledInputLabel>{props.gradeLabel}</StyledInputLabel>
+      <StyledTextInput type="text" onChange={handleChange} />
+    </StyledInputContainer>
   );
 };
