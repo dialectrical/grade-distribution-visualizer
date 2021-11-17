@@ -8,16 +8,13 @@ export const TextInput = (props) => {
     } else {
       props.arr[props.index] = 0;
     }
+    console.log(props.arr);
   };
 
   return (
     <div>
       {props.gradeLabel}
-      <input
-        type="text"
-        value={props.arr[props.index]}
-        onChange={handleChange}
-      />
+      <input type="text" onChange={handleChange} />
     </div>
   );
 };

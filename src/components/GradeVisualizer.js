@@ -7,12 +7,15 @@ let input = new Array(13);
 export const GradeVisualizer = (props) => {
   const [grades, setGrades] = useState(new Array(13));
 
+  console.log("rendered");
+
   useEffect(() => {
+    console.log("effect hook");
     console.log(input);
     console.log(grades);
     props.map.clear();
     const gradeValues = [
-      4.0, 4.0, 3.7, 3.3, 3.0, 2.2, 2.3, 2.0, 1.7, 1.3, 1.0, 0.7, 0,
+      4.3, 4.0, 3.7, 3.3, 3.0, 2.2, 2.3, 2.0, 1.7, 1.3, 1.0, 0.7, 0,
     ];
 
     for (let i = 0; i < grades.length; i++) {
