@@ -34,6 +34,18 @@ export const GradeVisualizer = (props) => {
       <Button fn={setGrades} arr={input} />
       <div>
         <TextInput gradeLabel="🇦" arr={input} index={0} />
+        <TextInput gradeLabel="🇦" arr={input} index={1} />
+        <TextInput gradeLabel="🇦" arr={input} index={2} />
+        <TextInput gradeLabel="🇦" arr={input} index={3} />
+        <TextInput gradeLabel="🇦" arr={input} index={4} />
+        <TextInput gradeLabel="🇦" arr={input} index={5} />
+        <TextInput gradeLabel="🇦" arr={input} index={6} />
+        <TextInput gradeLabel="🇦" arr={input} index={7} />
+        <TextInput gradeLabel="🇦" arr={input} index={8} />
+        <TextInput gradeLabel="🇦" arr={input} index={9} />
+        <TextInput gradeLabel="🇦" arr={input} index={10} />
+        <TextInput gradeLabel="🇦" arr={input} index={11} />
+        <TextInput gradeLabel="🇦" arr={input} index={12} />
       </div>
     </div>
   );
