@@ -1,4 +1,9 @@
 import React, { useEffect } from "react";
+import {
+  StyledOutput,
+  StyledOutputLabel,
+  StyledOutputContainer,
+} from "./styles/StyledOutput";
 
 export const MeanMedianMode = (props) => {
   let datasetSize = 0;
@@ -53,9 +58,18 @@ export const MeanMedianMode = (props) => {
 
   return (
     <div>
-      <p>Mean: {mean}</p>
-      <p>Median: {median}</p>
-      <p>Mode: {mode}</p>
+      <StyledOutputContainer>
+        <StyledOutputLabel>Mean</StyledOutputLabel>
+        <StyledOutput>{mean}</StyledOutput>
+      </StyledOutputContainer>
+      <StyledOutputContainer>
+        <StyledOutputLabel>Median</StyledOutputLabel>
+        <StyledOutput>{median}</StyledOutput>
+      </StyledOutputContainer>
+      <StyledOutputContainer>
+        <StyledOutputLabel>Mode</StyledOutputLabel>
+        <StyledOutput>{mode}</StyledOutput>
+      </StyledOutputContainer>
     </div>
   );
 };
