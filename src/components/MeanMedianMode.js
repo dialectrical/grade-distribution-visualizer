@@ -19,6 +19,7 @@ export const MeanMedianMode = (props) => {
   for (let i = 0; i < props.gradeArr.length; i++) {
     mean += props.gradeArr[i] * props.gradeValues[i];
     if (props.gradeArr[i] > modeCounter) {
+      mode = [];
       modeCounter = props.gradeArr[i];
       mode.push(props.gradeLetters[i]);
     } else if (props.gradeArr[i] === modeCounter) {
