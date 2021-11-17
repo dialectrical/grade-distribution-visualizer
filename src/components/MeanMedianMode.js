@@ -12,7 +12,9 @@ export const MeanMedianMode = (props) => {
   for (let i = 0; i < props.gradeArr.length; i++) {
     datasetSize += props.gradeArr[i];
   }
+  console.log(datasetSize);
   medianCounter = datasetSize / 2;
+  console.log(medianCounter);
 
   for (let i = 0; i < props.gradeArr.length; i++) {
     mean += props.gradeArr[i] * props.gradeValues[i];
@@ -25,8 +27,12 @@ export const MeanMedianMode = (props) => {
     medianCounter -= props.gradeArr[i];
     if (medianCounter <= 0 && median === -1) {
       medianFreq = props.gradeArr[i];
-      if (datasetSize % 2 === 0 && i !== 12) {
-        median = props.gradeValues[i] + props.gradeValues[i + 1];
+      if (
+        datasetSize % 2 === 0 &&
+        i !== 12 &&
+        props.gradeArr[i + 1] === props.gradeArr[i]
+      ) {
+        median = (props.gradeValues[i] + props.gradeValues[i + 1]) / 2;
       } else {
         median = props.gradeValues[i];
       }
