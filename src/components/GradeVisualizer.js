@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export const GradeVisualizer = (props) => {
   const [grades, setGrades] = useState(new Array(13));
+  let input = new Array(13);
 
   useEffect(() => {
     for (let i = 0; i < grades.length; i++) {

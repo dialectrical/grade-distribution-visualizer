@@ -1,5 +1,10 @@
 import React from "react";
 
 export const TextInput = (props) => {
-  //accept text input for the quantity of a given grade
+  handleChange = (event) => {
+    let int = parseInt(event.value);
+    props.arr[props.index] = int;
+  };
+
+  return <input type="text" value="0" onChange={handleChange} />;
 };
