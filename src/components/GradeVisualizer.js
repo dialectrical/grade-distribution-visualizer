@@ -28,26 +28,6 @@ export const GradeVisualizer = (props) => {
 
   console.log("rendered");
 
-  useEffect(() => {
-    console.log("effect hook");
-    console.log(input);
-    console.log(grades);
-    props.map.clear();
-
-    for (let i = 0; i < grades.length; i++) {
-      if (grades[i] === undefined) {
-        console.log(grades[i]);
-        props.map.set(gradeValues[i], 0);
-      } else {
-        console.log("value found");
-        console.log(gradeValues[i]);
-        console.log(grades[i]);
-        props.map.set(gradeValues[i], grades[i]);
-      }
-    }
-    console.log(props.map);
-  });
-
   return (
     <div>
       <MeanMedianMode
