@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { BarGraph } from "./BarGraph";
 import { MeanMedianMode } from "./MeanMedianMode";
 import { Button } from "./Button";
 import { TextInput } from "./TextInput";
@@ -30,6 +31,8 @@ export const GradeVisualizer = (props) => {
 
   return (
     <div>
+      <BarGraph arr={grades} />
+      <br />
       <MeanMedianMode
         gradeArr={grades}
         gradeValues={gradeValues}
