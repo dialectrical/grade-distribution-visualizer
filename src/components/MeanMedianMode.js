@@ -9,7 +9,7 @@ export const MeanMedianMode = (props) => {
   let datasetSize = 0;
   let mean = 0;
   let modeCounter = 0;
-  let mode = [];
+  let mode = [-1];
   let medianCounter = 0;
   let medianFreq = 0;
   let median = -1;

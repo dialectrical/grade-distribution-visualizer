@@ -25,8 +25,6 @@ export const StyledInputContainer = styled.div`
   height: 5vh;
   width: 10vw;
   margin: auto;
-  margin-top: 18px;
-  margin-bottom: 18px;
   border: solid;
   border-color: #efefed;
 `;
