@@ -11,6 +11,7 @@ export const StyledTextInput = styled.input`
 export const StyledInputLabel = styled.span`
   height: 5vh;
   width: 5vw;
+  font-size: 18px;
   margin-left: 12.5%;
   font-weight: bold;
   text-align: left;
