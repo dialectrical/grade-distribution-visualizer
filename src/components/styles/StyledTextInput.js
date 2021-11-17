@@ -5,6 +5,8 @@ export const StyledTextInput = styled.input`
   width: 5vw;
   border: #efefed;
   text-align: center;
+  font-size: 18px;
+  font-weight: 800;
   background-color: #eff7ff;
 `;
 
