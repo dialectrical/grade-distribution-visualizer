@@ -29,7 +29,7 @@ export const GradeVisualizer = (props) => {
       </div>
       <Button fn={setGrades} /> */
     <div>
-      <TextInput arr={input} index={0} />
+      <TextInput gradeLabel="🇦" arr={input} index={0} />
     </div>
     //</div>
   );
