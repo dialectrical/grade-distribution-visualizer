@@ -1,5 +1,5 @@
 import React from "react";
 
 export const Button = (props) => {
-  //button that updates state
+  return <button onClick={() => props.fn(props.arr)}>Go!</button>;
 };
