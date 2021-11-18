@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/dialectrical.github.io/grade-distribution-visualizer/static/css/main.8e52f279.chunk.css",
-    "main.js": "/dialectrical.github.io/grade-distribution-visualizer/static/js/main.2ac47f1c.chunk.js",
-    "main.js.map": "/dialectrical.github.io/grade-distribution-visualizer/static/js/main.2ac47f1c.chunk.js.map",
-    "runtime-main.js": "/dialectrical.github.io/grade-distribution-visualizer/static/js/runtime-main.a85cdb2f.js",
-    "runtime-main.js.map": "/dialectrical.github.io/grade-distribution-visualizer/static/js/runtime-main.a85cdb2f.js.map",
-    "static/js/2.26ff7501.chunk.js": "/dialectrical.github.io/grade-distribution-visualizer/static/js/2.26ff7501.chunk.js",
-    "static/js/2.26ff7501.chunk.js.map": "/dialectrical.github.io/grade-distribution-visualizer/static/js/2.26ff7501.chunk.js.map",
-    "static/js/3.b1dc37f3.chunk.js": "/dialectrical.github.io/grade-distribution-visualizer/static/js/3.b1dc37f3.chunk.js",
-    "static/js/3.b1dc37f3.chunk.js.map": "/dialectrical.github.io/grade-distribution-visualizer/static/js/3.b1dc37f3.chunk.js.map",
-    "index.html": "/dialectrical.github.io/grade-distribution-visualizer/index.html",
-    "static/css/main.8e52f279.chunk.css.map": "/dialectrical.github.io/grade-distribution-visualizer/static/css/main.8e52f279.chunk.css.map",
-    "static/js/2.26ff7501.chunk.js.LICENSE.txt": "/dialectrical.github.io/grade-distribution-visualizer/static/js/2.26ff7501.chunk.js.LICENSE.txt"
+    "main.css": "/grade-distribution-visualizer/static/css/main.8e52f279.chunk.css",
+    "main.js": "/grade-distribution-visualizer/static/js/main.2ac47f1c.chunk.js",
+    "main.js.map": "/grade-distribution-visualizer/static/js/main.2ac47f1c.chunk.js.map",
+    "runtime-main.js": "/grade-distribution-visualizer/static/js/runtime-main.7b76acd6.js",
+    "runtime-main.js.map": "/grade-distribution-visualizer/static/js/runtime-main.7b76acd6.js.map",
+    "static/js/2.22d14504.chunk.js": "/grade-distribution-visualizer/static/js/2.22d14504.chunk.js",
+    "static/js/2.22d14504.chunk.js.map": "/grade-distribution-visualizer/static/js/2.22d14504.chunk.js.map",
+    "static/js/3.b1dc37f3.chunk.js": "/grade-distribution-visualizer/static/js/3.b1dc37f3.chunk.js",
+    "static/js/3.b1dc37f3.chunk.js.map": "/grade-distribution-visualizer/static/js/3.b1dc37f3.chunk.js.map",
+    "index.html": "/grade-distribution-visualizer/index.html",
+    "static/css/main.8e52f279.chunk.css.map": "/grade-distribution-visualizer/static/css/main.8e52f279.chunk.css.map",
+    "static/js/2.22d14504.chunk.js.LICENSE.txt": "/grade-distribution-visualizer/static/js/2.22d14504.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a85cdb2f.js",
-    "static/js/2.26ff7501.chunk.js",
+    "static/js/runtime-main.7b76acd6.js",
+    "static/js/2.22d14504.chunk.js",
     "static/css/main.8e52f279.chunk.css",
     "static/js/main.2ac47f1c.chunk.js"
   ]
